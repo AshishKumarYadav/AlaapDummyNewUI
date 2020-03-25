@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68666838116",
+    "firebase_url": "https://alaapdummynew.firebaseio.com",
+    "project_id": "alaapdummynew",
+    "storage_bucket": "alaapdummynew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68666838116:android:9dff7fe0361c4aa5b22371",
+        "android_client_info": {
+          "package_name": "com.ashish.alaapdummy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68666838116-uquk7kubbs4159vgupc4ki5082cnukga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashish.alaapdummy",
+            "certificate_hash": "16eda17c7270de8273bf2f2065efb44b97ad0092"
+          }
+        },
+        {
+          "client_id": "68666838116-dvf1qfd4lgh6nkh5r3r55gdgqtfv10i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCJbHFE90ZYHguG0nupLn409KcUBndk58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68666838116-dvf1qfd4lgh6nkh5r3r55gdgqtfv10i4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

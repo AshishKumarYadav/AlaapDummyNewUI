@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#FA0303</color>
+    <color name="green">#02F70E</color>
+    <color name="blue">#07A2F7</color>
+    <color name="grey">#423F3F</color>
+
+    <color name="blackOpaque">#99000000</color>
+    <color name="whiteOpaque">#bcFFFFFF</color>
+    <color name="whiteOpaqueX2">#aaFFFFFF</color>
+    <color name="whiteOpaqueX4">#55FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000</color>
+    <color name="blackSubtitle">#77000000</color>
+
+    <!-- Accent Colors -->
+
+    <color name="orange">#ff7043</color>
+    <color name="cyan">#03A9F4</color>
+    <color name="pink">#FB395C</color>
+    <color name="yellow">#ffca28</color>
+    <color name="purple">#ba68c8</color>
+
+    <color name="imageColorAlpha">#66000000</color>
+    <color name="background">#000000</color>
+    <color name="dialogBackground">#252525</color>
+    <color name="progressBarBackground">#44ffffff</color>
+    <color name="navigationBar">#000000</color>
+    <color name="accentColor">#FFFFFF</color>
+    <color name="textColorTitle">#ffffff</color>
+    <color name="textColorSubTitle">#999</color>
+    <color name="unselected_text">#999</color>
+    <color name="playerControlsBackground">@color/colorPrimaryDark</color>
+
+
+</resources>

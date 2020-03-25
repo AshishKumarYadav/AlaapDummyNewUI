@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    android:id="@+id/sliding_layout"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:backgroundTint="@color/colorPrimary"
+    sothree:umanoPanelHeight="110dp"
+    sothree:umanoShadowHeight="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:background="#0000"
+        >
+
+
+
+        <include layout="@layout/content_main" />
+
+
+
+
+        <!--here comes your main layout -->
+
+    </LinearLayout>
+
+
+    <!-- here comes your sliding up panel layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/slide"
+        android:background="#0000"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|center"
+            android:paddingTop="0dp"
+            android:id="@+id/LinearLaout1"
+            android:orientation="horizontal"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:id="@+id/playerLayout">
+
+                <TextView
+                    android:id="@+id/txtSongLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:hint=""
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25dp" />
+
+
+                <Button
+                    android:id="@+id/pause"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/txtSongLabel"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/pause"
+
+                    />
+
+                <Button
+
+                    android:id="@+id/next"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/txtSongLabel"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/pause"
+                    android:background="@drawable/ic_skip_next_black_24dp" />
+
+                <Button
+                    android:id="@+id/previous"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/txtSongLabel"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toLeftOf="@+id/pause"
+                    android:background="@drawable/ic_skip_previous_black_24dp" />
+
+                <SeekBar
+                    android:id="@+id/seekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pause"
+                    android:visibility="gone"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/seekBar"
+                    android:paddingLeft="10dp"
+                    android:hint="0.00"
+                    android:id="@+id/elapsedTime"
+                    android:textColor="#000000"
+                    android:visibility="gone"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/seekBar"
+                    android:paddingRight="10dp"
+                    android:hint="5.00"
+                    android:id="@+id/totalTime"
+                    android:textColor="#000000"
+                    android:visibility="gone"/>
+
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/album"
+                    android:layout_below="@id/pause"
+                    />
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

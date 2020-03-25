@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_app_version"
+            app:actionViewClass="android.widget.TextView"
+            android:icon="@drawable/ic_perm_device_information_black_24dp"
+            android:title="App Version" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/update"
+                android:icon="@drawable/ic_system_update_black_24dp"
+                android:title="Check for Update" />
+            <item
+                android:id="@+id/invite"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Invite friends" />
+
+        </menu>
+    </item>
+</menu>

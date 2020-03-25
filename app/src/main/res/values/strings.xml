@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">New Alaap Music Player</string>
+    <string name="setting">Settings</string>
+    <string name="fcm_token">FCM Token: %s</string>
+    <string name="nullTime">--:--</string>
+    <string name="Open">Opened</string>
+    <string name="Close">Closed</string>
+    <string name="web_client_id">68666838116-dvf1qfd4lgh6nkh5r3r55gdgqtfv10i4.apps.googleusercontent.com</string>
+
+</resources>
